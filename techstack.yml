@@ -1,0 +1,495 @@
+repo_name: naywintx/azure-powershell
+report_id: 1380690769835d306d55003a62c68091
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-21T03:15:17+00:00'
+requested_by: Nickcandy
+provider: github
+branch: main
+detected_tools_count: 33
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: '3.5'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/setup/InstallerChecks/InstallerChecks/InstallerChecks.csproj
+  detection_source: setup/InstallerChecks/InstallerChecks/InstallerChecks.csproj
+  last_updated_by: maddieclayton
+  last_updated_on: 2018-12-14 01:50:31.000000000 Z
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/setup/InstallerChecks/InstallerChecks/InstallerChecks.cs
+  detection_source: setup/InstallerChecks/InstallerChecks/InstallerChecks.cs
+  last_updated_by: maddieclayton
+  last_updated_on: 2018-12-14 01:50:31.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/EventGrid/EventGrid.Test/EventGrid.Test.csproj
+  detection_source: src/EventGrid/EventGrid.Test/EventGrid.Test.csproj
+  last_updated_by: Ajit Navasare
+  last_updated_on: 2020-06-16 05:14:57.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/Accounts/AuthenticationAssemblyLoadContext/AuthenticationAssemblyLoadContext.csproj
+  detection_source: src/Accounts/AuthenticationAssemblyLoadContext/AuthenticationAssemblyLoadContext.csproj
+  last_updated_by: Beisi Zhou
+  last_updated_on: 2022-06-24 15:41:30.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/ADDomainServices/ADDomainServices/ADDomainServices.csproj
+  detection_source: src/Accounts/AuthenticationAssemblyLoadContext/AuthenticationAssemblyLoadContext.csproj
+  last_updated_by: Beisi Zhou
+  last_updated_on: 2022-06-24 15:41:30.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Yeming Liu
+  last_updated_on: 2022-07-11 09:17:21.000000000 Z
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/Compute/Compute.AlcWrapper/Compute.AlcWrapper.csproj
+  detection_source: src/Compute/Compute.AlcWrapper/Compute.AlcWrapper.csproj
+  last_updated_by: Adam Sandor
+  last_updated_on: 2022-09-30 04:01:26.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Yeming Liu
+  last_updated_on: 2022-07-11 09:17:21.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/naywintx/azure-powershell
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/.github/workflows/pr-labeled.yml
+  detection_source: ".github/workflows/pr-labeled.yml"
+  last_updated_by: Yunchi Wang
+  last_updated_on: 2023-08-09 06:29:40.000000000 Z
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/Dashboard/Dashboard.Autorest/UX/Microsoft.Dashboard/grafana.json
+  detection_source: src/Dashboard/Dashboard.Autorest/UX/Microsoft.Dashboard/grafana.json
+  last_updated_by: Yunchi Wang
+  last_updated_on: 2023-10-11 02:15:13.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/EventGrid/EventGrid.Test/EventGrid.Test.csproj
+  detection_source: src/EventGrid/EventGrid.Test/EventGrid.Test.csproj
+  last_updated_by: MiYanni
+  last_updated_on: 2018-04-18 17:12:18.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/setup/InstallerChecks/InstallerChecks.sln
+  detection_source: setup/InstallerChecks/InstallerChecks.sln
+  last_updated_by: maddieclayton
+  last_updated_on: 2018-12-14 01:50:31.000000000 Z
+- name: JSON Web Token
+  description: A JSON-based open standard for creating access tokens
+  website_url: http://jwt.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/6417/jwt-icon.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/ContainerRegistry/ContainerRegistry/ContainerRegistry.csproj
+  detection_source: src/ContainerRegistry/ContainerRegistry/ContainerRegistry.csproj
+  last_updated_by: Yabo Hu
+  last_updated_on: 2020-10-20 11:04:34.000000000 Z
+- name: NLog
+  description: Flexible &amp; free open-source logging for .NET
+  website_url: https://nlog-project.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9672/nlog_logo_square_normal.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/DataLakeStore/DataLakeStore/DataLakeStore.csproj
+  detection_source: src/DataLakeStore/DataLakeStore/DataLakeStore.csproj
+  last_updated_by: Rahul Dutta
+  last_updated_on: 2018-05-12 05:35:51.000000000 Z
+- name: System.Data.SqlClient
+  description: Provides the data provider for SQL Server
+  package_url: https://www.nuget.org/System.Data.SqlClient
+  version: 4.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12863/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/DataFactory/DataFactoryV1/DataFactoryV1.csproj
+  detection_source: src/DataFactory/DataFactoryV1/DataFactoryV1.csproj
+  last_updated_by: Yunchi Wang
+  last_updated_on: 2023-12-11 01:21:26.000000000 Z
+  vulnerabilities:
+  - name: Microsoft.Data.SqlClient and System.Data.SqlClient vulnerable to SQL Data
+      Provider Security Feature Bypass
+    cve_id: CVE-2024-0056
+    cve_url: https://github.com/advisories/GHSA-98g6-xh36-x2p7
+    detected_date: Jan 17
+    severity: high
+    first_patched: 4.8.6
+- name: Microsoft.IdentityModel.JsonWebTokens
+  description: Includes types that provide support for creating
+  package_url: https://www.nuget.org/Microsoft.IdentityModel.JsonWebTokens
+  version: 5.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15224/default_59d513d7a7e0f6cb7b66453b72ce6f9ad11a31cc.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/Attestation/Attestation/Attestation.csproj
+  detection_source: src/Attestation/Attestation/Attestation.csproj
+  last_updated_by: Beisi Zhou
+  last_updated_on: 2022-06-24 15:41:30.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: Microsoft Identity Denial of service vulnerability'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-8g9c-28fc-mcx2
+    detected_date: Jan 10
+    severity: moderate
+    first_patched: 5.7.0
+  - name: Microsoft ASP.NET Core project templates vulnerable to denial of service
+    cve_id: CVE-2024-21319
+    cve_url: https://github.com/advisories/GHSA-59j7-ghrg-fj52
+    detected_date: Jan 10
+    severity: moderate
+    first_patched: 5.7.0
+- name: System.IdentityModel.Tokens.Jwt
+  description: Includes types that provide support for creating
+  package_url: https://www.nuget.org/System.IdentityModel.Tokens.Jwt
+  version: 5.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12920/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/ContainerRegistry/ContainerRegistry/ContainerRegistry.csproj
+  detection_source: src/ContainerRegistry/ContainerRegistry/ContainerRegistry.csproj
+  last_updated_by: Yabo Hu
+  last_updated_on: 2020-10-20 11:04:34.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: Microsoft Identity Denial of service vulnerability'
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-8g9c-28fc-mcx2
+    detected_date: Jan 10
+    severity: moderate
+    first_patched: 5.7.0
+  - name: Microsoft ASP.NET Core project templates vulnerable to denial of service
+    cve_id: CVE-2024-21319
+    cve_url: https://github.com/advisories/GHSA-59j7-ghrg-fj52
+    detected_date: Jan 10
+    severity: moderate
+    first_patched: 5.7.0
+- name: MSTest.TestFramework
+  description: This is MSTest V2, the evolution of Microsoft's Test Framework
+  package_url: https://www.nuget.org/MSTest.TestFramework
+  version: 1.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13142/default_a057bdad489be3cb053d372a68695da4ac94962d.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/Automation/Automation.Test/Automation.Test.csproj
+  detection_source: src/Automation/Automation.Test/Automation.Test.csproj
+  last_updated_by: MiYanni
+  last_updated_on: 2018-12-28 00:53:38.000000000 Z
+- name: Microsoft.Azure.Devices
+  description: Service SDK for Azure IoT Hub
+  package_url: https://www.nuget.org/Microsoft.Azure.Devices
+  version: 1.22.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14558/default_45f0a47caf98b915c035df2d87ead06aa820d985.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/DeviceProvisioningServices/DeviceProvisioningServices.Test/DeviceProvisioningServices.Test.csproj
+  detection_source: src/DeviceProvisioningServices/DeviceProvisioningServices.Test/DeviceProvisioningServices.Test.csproj
+  last_updated_by: Elsie4ever
+  last_updated_on: 2023-02-17 03:34:54.000000000 Z
+- name: Microsoft.Azure.KeyVault
+  description: Azure Key Vault enables users to store and use cryptographic keys within
+    the Microsoft Azure environment
+  package_url: https://www.nuget.org/Microsoft.Azure.KeyVault
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13163/default_44f069d4a745c5c788fc8fe5128bd24cacde1aff.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/CosmosDB/CosmosDB.Test/CosmosDB.Test.csproj
+  detection_source: src/CosmosDB/CosmosDB.Test/CosmosDB.Test.csproj
+  last_updated_by: Ashwini Singh
+  last_updated_on: 2022-12-01 08:22:32.000000000 Z
+- name: Microsoft.Azure.Management.ServiceBus
+  description: Provides developers with libraries to create and manage Namespaces
+    and manage Authorization Rules
+  package_url: https://www.nuget.org/Microsoft.Azure.Management.ServiceBus
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14551/default_f529587ad5d6c5781c072104c849322b004ee843.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/EventGrid/EventGrid.Test/EventGrid.Test.csproj
+  detection_source: src/EventGrid/EventGrid.Test/EventGrid.Test.csproj
+  last_updated_by: Brandon Neff
+  last_updated_on: 2022-10-19 02:41:34.000000000 Z
+- name: Microsoft.IdentityModel.Tokens
+  description: Includes types that provide support for SecurityTokens
+  package_url: https://www.nuget.org/Microsoft.IdentityModel.Tokens
+  version: 5.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13026/default_1075538f3811f68c42abfdf5ebcf152058e4076d.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/Attestation/Attestation.Test/Attestation.Test.csproj
+  detection_source: src/Attestation/Attestation.Test/Attestation.Test.csproj
+  last_updated_by: Claire Chen
+  last_updated_on: 2020-07-06 03:09:28.000000000 Z
+- name: Microsoft.NETCore.Platforms
+  description: Provides runtime information required to resolve target framework,
+    platform, and runtime specific implementations of .NETCore packages
+  package_url: https://www.nuget.org/Microsoft.NETCore.Platforms
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12907/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/AnalysisServices/AnalysisServices/AnalysisServices.csproj
+  detection_source: src/AnalysisServices/AnalysisServices/AnalysisServices.csproj
+  last_updated_by: maddieclayton
+  last_updated_on: 2018-10-24 21:21:45.000000000 Z
+- name: NLog
+  description: NLog is a logging platform for .NET with rich log routing and management
+    capabilities
+  package_url: https://www.nuget.org/NLog
+  version: 4.5.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12859/default_a3ccb59f9bc7225d3e241611dc27d0f4cd9875eb.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/DataLakeStore/DataLakeStore/DataLakeStore.csproj
+  detection_source: src/DataLakeStore/DataLakeStore/DataLakeStore.csproj
+  last_updated_by: Rahul Dutta
+  last_updated_on: 2018-05-12 05:35:51.000000000 Z
+- name: System.IO.FileSystem.AccessControl
+  description: Provides types for managing access and audit control lists for files
+    and directories
+  package_url: https://www.nuget.org/System.IO.FileSystem.AccessControl
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13469/default_9bed24fda7c43823a3e1a93400ac800e54f4524c.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/Compute/Compute/Compute.csproj
+  detection_source: src/Compute/Compute/Compute.csproj
+  last_updated_by: Haider Agha
+  last_updated_on: 2023-11-08 01:36:55.000000000 Z
+- name: System.Management
+  description: Provides access to a rich set of management information and management
+    events about the system
+  package_url: https://www.nuget.org/System.Management
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13280/default_1e1f93823dcbf467a805adfd578c74f8f54c6a4e.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/Compute/Compute/Compute.csproj
+  detection_source: src/Compute/Compute/Compute.csproj
+  last_updated_by: Haider Agha
+  last_updated_on: 2023-11-08 01:36:55.000000000 Z
+- name: System.Net.Requests
+  description: Provides older classes
+  package_url: https://www.nuget.org/System.Net.Requests
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12971/default_54d470a1e19c265eb229b6bd88965fb8df9f9f78.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/DataLakeStore/DataLakeStore/DataLakeStore.csproj
+  detection_source: src/DataLakeStore/DataLakeStore/DataLakeStore.csproj
+  last_updated_by: MiYanni
+  last_updated_on: 2018-05-23 20:30:04.000000000 Z
+- name: System.Security.Cryptography.Xml
+  description: Provides classes to support the creation and validation of XML digital
+    signatures
+  package_url: https://www.nuget.org/System.Security.Cryptography.Xml
+  version: 4.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13303/default_4d1c8e39751da3e5e8bf7305f3f45ac90df4be6f.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/Compute/Compute/Compute.csproj
+  detection_source: src/Compute/Compute/Compute.csproj
+  last_updated_by: Haider Agha
+  last_updated_on: 2023-11-08 01:36:55.000000000 Z
+- name: System.Security.Permissions
+  description: Provides types supporting Code Access Security
+  package_url: https://www.nuget.org/System.Security.Permissions
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13182/default_7bf60c4b32af3c8741e8825972e95cdf35308a6a.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/Accounts/Accounts/Accounts.csproj
+  detection_source: src/Accounts/Accounts/Accounts.csproj
+  last_updated_by: NoriZC
+  last_updated_on: 2023-04-28 02:45:25.000000000 Z
+- name: System.ServiceModel.Primitives
+  description: Package Description
+  package_url: https://www.nuget.org/System.ServiceModel.Primitives
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13101/default_a5e8cd728170fc92850284a53a17ff7deb73f318.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/Compute/Compute/Compute.csproj
+  detection_source: src/Compute/Compute/Compute.csproj
+  last_updated_by: Haider Agha
+  last_updated_on: 2023-11-08 01:36:55.000000000 Z
+- name: WindowsAzure.Storage
+  description: 'NOTE: As of version 9.4.0'
+  package_url: https://www.nuget.org/WindowsAzure.Storage
+  version: 9.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12883/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/ApiManagement/ApiManagement/ApiManagement.csproj
+  detection_source: src/ApiManagement/ApiManagement/ApiManagement.csproj
+  last_updated_by: Dingmeng Xue
+  last_updated_on: 2022-11-18 00:17:19.000000000 Z
+- name: YamlDotNet.Signed
+  description: "[Obsolete! This is a transition package to help migrating to YamlDotNet]
+    A .NET library for YAML"
+  package_url: https://www.nuget.org/YamlDotNet.Signed
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13613/default_8262e69d511886f07f1af08ca996ce9684bb574b.png
+  detection_source_url: https://github.com/naywintx/azure-powershell/blob/main/src/Aks/Aks.Test/Aks.Test.csproj
+  detection_source: src/Aks/Aks.Test/Aks.Test.csproj
+  last_updated_by: cormacpayne
+  last_updated_on: 2018-10-16 20:08:24.000000000 Z
